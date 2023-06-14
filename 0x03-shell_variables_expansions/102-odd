@@ -1,2 +1,2 @@
 #!/bin/bash
-paste - - | cute -f1
+paste - - | cut -f1
