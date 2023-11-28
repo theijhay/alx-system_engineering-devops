@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-/^(hbn)+\n/
+puts /^(hbn)+\n/
