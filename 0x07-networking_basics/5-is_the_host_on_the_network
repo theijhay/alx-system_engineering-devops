@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bash/env bash
 
 # Check if the script is run without any arguments
 if [ "$#" -ne 1 ]; then
