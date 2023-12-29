@@ -1,42 +1,45 @@
-## Web infrastructure design
+# Web infrastructure design
+
 Concepts
 
 [DNS](https://intranet.alxswe.com/concepts/12)
 
 [Monitoring](https://intranet.alxswe.com/concepts/13)
 
-[Web Server]()
+[Web Server](https://intranet.alxswe.com/concepts/17)
 
-Network basics
+[Network basics](https://intranet.alxswe.com/concepts/33)
 
-Load balancer
+[Load balancer](https://intranet.alxswe.com/concepts/46)
 
-Server
+[Server](https://intranet.alxswe.com/concepts/67)
 
-What is a database
+# Resources
 
-What’s the difference between a web server and an app server?
+[What is a database](https://intranet.alxswe.com/rltoken/n3CdS3EA5l5psDDKbEhApA)
 
-DNS record types
+[What’s the difference between a web server and an app server?](https://intranet.alxswe.com/rltoken/0as4wDlFqyhLhf0f_gedcw)
 
-Single point of failure
+[DNS record types](https://intranet.alxswe.com/rltoken/Pl3UoEfAO7K_jUKRLMmnAQ)
 
-How to avoid downtime when deploying new code
+[Single point of failure](https://intranet.alxswe.com/rltoken/uxpx2YhXs10TFLIDg78chA)
 
-High availability cluster (active-active/active-passive)
+[How to avoid downtime when deploying new code](https://intranet.alxswe.com/rltoken/4ansLu2gtHnoFrNThqyObA)
 
-What is HTTPS
+[High availability cluster (active-active/active-passive)](https://intranet.alxswe.com/rltoken/TAJeVYy9U9iLaEDd6XkbRA)
 
-What is a firewall
+[What is HTTPS](https://intranet.alxswe.com/rltoken/c0zs2MxrmxFLsCPOizxq6g)
+
+[What is a firewall](https://intranet.alxswe.com/rltoken/j6idMcUTyNEDj1oYDQFmUw)
 
 Application server vs web server
 
-## Tasks
-## 0. Simple web stack
-## Description
+# Tasks
+# Simple web stack
+# Description
 This is a simple web infrastructure that hosts a website that is reachable via www.foobar.com. There are no firewalls or SSL certificates for protecting the server's network. Each component (database, application server) has to share the resources (CPU, RAM, and SSD) provided by the server.
 
-## Specifics About This Infrastructure
+# Specifics About This Infrastructure
 What a server is.
 A server is a computer hardware or software that provides services to other computers, which are usually referred to as clients.
 
