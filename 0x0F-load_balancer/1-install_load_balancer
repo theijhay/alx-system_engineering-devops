@@ -16,8 +16,8 @@ frontend  isaac-frontend
         default_backend isaac-backend
 backend isaac-backend
         balance roundrobin
-        server 418966-web-01 100.26.151.41.01:80 check
-        server 418966-web-02 54.144.137.166.02:80 check
+        server 418966-web-01 100.26.151.41:80 check
+        server 418966-web-02 54.144.137.166:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
