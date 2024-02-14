@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-#Fixes a web server to run nginx as the nginx user listening to port 8080
-
+#Fixes a web server to run nginx as the nginx user listening to port 808.
 pkill -f apache2
 chown nginx:nginx /etc/nginx/nginx.conf
 chmod 700 /etc/nginx/nginx.conf
 sed -i 's/80 default_server/8080 default_server/' /etc/nginx/sites-available/default
-sudo -u nginx service nginx start
+sudo -u nginx service nginx start.
