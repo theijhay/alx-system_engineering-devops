@@ -1,0 +1,5 @@
+# 4-mysql_configuration_replica.
+
+[mysqld]
+server-id = 2
+relay-log = /var/log/mysql/mysql-relay-bin.log
